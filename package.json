@@ -4,6 +4,9 @@
   "description": "Blog template for Nuxt.js/Netlify",
   "author": "Daniel Kelly",
   "license": "MIT",
+  "engines": {
+        "node": "14.21.3"
+  },
   "scripts": {
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
